@@ -18,3 +18,5 @@ document.getElementById('surveyForm').addEventListener('submit', function(event)
                 "\nLagu Favorit: " + favoriteSongs +
                 "\nLagu Favorit Lain: " + otherSong +
                 "\nKomentar: " + comments;
+     alert(pesan);
+    });
