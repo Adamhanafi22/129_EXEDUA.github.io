@@ -8,4 +8,5 @@ document.getElementById('surveyForm').addEventListener('submit', function(event)
     var favoriteSongsArray = Array.from(document.querySelectorAll('input[name="favoriteSongs"]:checked'))
                                   .map(checkbox => checkbox.value);
     var favoriteSongs = favoriteSongsArray.join(', ');
-    var otherSong = document.getElementById('otherSong').value;                              
+    var otherSong = document.getElementById('otherSong').value;     
+    var comments = document.getElementById('comments').value;                         
